@@ -5,7 +5,7 @@ import { BrowserRouter , MemoryRouter} from 'react-router-dom'
 import '@testing-library/jest-dom/extend-expect'
 
 beforeEach(() => {
-const route = '/imageGallery'
+const route = '/galleryApp'
 
   render(
     <MemoryRouter initialEntries={[route]}>
