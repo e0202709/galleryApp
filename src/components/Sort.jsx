@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Nav(props) {
+function Sort(props) {
   const { handleAscSort, handleDescSort, handleDefault, isDefault, isAsc, isDesc } = props
 
   return (
@@ -20,4 +20,4 @@ function Nav(props) {
   )
 }
 
-export default Nav
+export default Sort

@@ -3,15 +3,9 @@ import Photo from './Photo'
 import NotFound from './NotFound'
 import apiKey from './Config'
 import axios from 'axios'
-import Nav from './Nav'
+import Sort from './Sort'
 import { sortAsc, sortDesc } from './Sorting'
 
-// componentDidUpdate(prevProps) {
-//   if (this.props.location.key !== prevProps.location.key) {
-//     this.resetState();
-//     this.fetchData(this.props.match.params.query);
-//   }
-// }
 const PhotoContainer = (props) => {
   const [images, setImages] = useState([])
   const [loading, setLoading] = useState(true)
@@ -91,7 +85,7 @@ const PhotoContainer = (props) => {
         <span data-testid='query'>{props.match.params.query}</span>
       </h2>
       {loading ? <h1>Loading...</h1> : null}
-      <Nav
+      <Sort
         handleAscSort={sortImagesAsc}
         handleDescSort={sortedImagesDesc}
         handleDefault={testingDefault}
