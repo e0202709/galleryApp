@@ -1,7 +1,7 @@
 import React from 'react'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, scren } from '@testing-library/react'
 import App from './App'
-import { BrowserRouter , MemoryRouter} from 'react-router-dom'
+import { MemoryRouter} from 'react-router-dom'
 import '@testing-library/jest-dom/extend-expect'
 
 beforeEach(() => {
