@@ -1,8 +1,8 @@
 
 module.exports = {
-    root: true,
+    root: true, 
     parserOptions: {
-      ecmaVersion: 2021, 
+      ecmaVersion: 2020, 
       sourceType: 'module', 
       ecmaFeatures: {
         jsx: true 
