@@ -47,5 +47,10 @@
     "prettier": "^2.8.3"
   },
   "type": "module",
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
+  },
   "homepage": "https://e0202709.github.io/galleryApp"
 }
