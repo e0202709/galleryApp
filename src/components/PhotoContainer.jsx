@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react'
 import Photo from './Photo'
 import NotFound from './NotFound'
 import apiKey from './Config'
-import axios from 'axios'
+const axios = require('axios')
 import Sort from './Sort'
 import { sortAsc, sortDesc } from './Sorting'
 
