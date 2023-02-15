@@ -10,7 +10,7 @@ module.exports = {
     },
     settings: {
       react: {
-        version: 'detect'
+        version: '^16.8.6"'
       }
     },
     env: {
