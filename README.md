@@ -38,6 +38,32 @@ Please view the app from here: [App][app].
 
 # Set up
 
+run locally in your machine by entering these commands 
+``` 
+npm install
+npm run dev
+```
+
+to check for linting issues, run this command 
+``` 
+npm run lint
+```
+
+to automatically format code using prettier, run this command
+``` 
+npm run format
+```
+
+to run all unit tests
+``` 
+npm run test
+```
+
+to run all unit tests with coverage
+``` 
+npm run test:coverage
+```
+
 
 # Unit tests 
 1. Initial page renders correctly with no sorting
@@ -46,3 +72,10 @@ Please view the app from here: [App][app].
 4. Test on page not found
 5. Sorting works as expected
 
+
+# Improvements to react code/good coding practices
+1. UseRef instead of useState in the form, doesn’t cause the component to re-render when updated
+2. UseMemo to memoise functions
+3. Used functional component instead of class component
+4. Added prettier formating and eslint
+5. Added unit tests
