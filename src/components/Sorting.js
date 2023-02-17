@@ -5,6 +5,6 @@ export const sortAsc = (images) => {
 
 export const sortDesc = (images) => {
   const sortedList = images.map((obj) => ({ ...obj, published_at: obj.published_at }));
-  return null
-  // return [...sortedList].sort((objA, objB) => new Date(objB.published_at) - new Date(objA.published_at));
+  // return null
+  return [...sortedList].sort((objA, objB) => new Date(objB.published_at) - new Date(objA.published_at));
 };

@@ -87,7 +87,7 @@ input {
 .main-nav button.active,
 .main-nav button:hover {
   color: #ffffff;
-  background-color: #0099CC;
+  background-color: pink;
 }
 
 .search-form button:hover {
